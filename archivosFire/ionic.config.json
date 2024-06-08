@@ -1,0 +1,7 @@
+{
+  "name": "archivosFire",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
