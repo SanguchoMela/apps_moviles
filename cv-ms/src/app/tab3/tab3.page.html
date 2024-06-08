@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Mis proyectos </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle
+        >Algunos de los proyectos que desarrolle a lo largo de mi época
+        estudiantil son los siguientes (cada uno redirecciona a su respectivo repositorio en GitHub):
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Termo Oasis" src="../../assets/logoTO.svg" />
+          </ion-thumbnail>
+          <ion-label>Sistema de gestión de citas en Centro de Terapias Alternativas Termo Oasis</ion-label>
+          <a href="https://github.com/SanguchoMela/frontend-TO_v1">Frontend</a>
+        </ion-item>
+
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="esfot-care" src="../../assets/esfot-care.png" />
+          </ion-thumbnail>
+          <a href="https://github.com/bryandelgado99/Proyecto-Farmacia--2do-Bimestre"><ion-label>Sistema de gestión de farmacia </ion-label></a>
+          <p></p>
+        </ion-item>
+
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <p class="proyecto">Polivet 😺🐶</p>
+          </ion-thumbnail>
+          <a href="https://github.com/bryandelgado99/Polivet-App"><ion-label>Sistema de gestión de veterinaria </ion-label></a>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <p class="proyecto"><br />+ - * /</p>
+          </ion-thumbnail>
+          <a href="https://github.com/bryandelgado99/Javax-Calculadora"><ion-label>Calculadora</ion-label></a>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- <app-explore-container name="Tab 3 page"></app-explore-container> -->
+</ion-content>
