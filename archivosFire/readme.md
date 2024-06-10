@@ -88,3 +88,11 @@ Ejecuta el comando
   ionic capacitor build android
 ```
 En Android Studio, con el proyecto ya abierto, ve a ` Build > Build Bundle(s)/APK(s) > Build APK(s)` y espera a que se genere el archivo `.apk`
+
+## Capturas de funcionamiento
+  <p align="center">
+    <img src="./src/assets/capturas/capt1.png" width="250px">
+  </p>
+  <p align="center">
+    <img src="./src/assets/capturas/capt2.png" width="250px">
+  </p>
