@@ -87,3 +87,18 @@ Ejecuta el comando
 ```
 En Android Studio, con el proyecto ya abierto, ve a ` Build > Build Bundle(s)/APK(s) > Build APK(s)` y espera a que se genere el archivo `.apk`
 
+## Capturas de funcionamiento
+- Inicio de Sesión o Registro
+  <p align="center">
+    <img src="./src/assets/capturas/capt1.png" width="250px">
+  </p>
+
+- Mensaje de error
+  <p align="center">
+    <img src="./src/assets/capturas/capt2.png" width="250px">
+  </p>
+
+- Home
+  <p align="center">
+    <img src="./src/assets/capturas/capt3.png" width="250px">
+  </p>
