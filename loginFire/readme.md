@@ -2,6 +2,8 @@
 
 Aplicación móvil para registrarse e iniciar sesión con correo electrónico y contraseña almacenados en Firebase.
 
+**Web**: https://proyecto1-2281f.web.app
+
 ## Requisitos previos
 
 - Git
