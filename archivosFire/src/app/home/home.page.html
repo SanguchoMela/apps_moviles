@@ -10,16 +10,16 @@
     </ion-card-header>
     <ion-card-content>
       <ion-button color="primary" size="medium">
-        <input type="file" (change)="uploadImage($event.target.files)" />
+        <input class="input" type="file" (change)="uploadImage($event.target.files)" />
       </ion-button>
     </ion-card-content>
   </ion-card>
   <!-- File upload progress bar -->
-  <div *ngIf="percentageVal | async as percentage">
+  <div class="progress" *ngIf="percentageVal | async as percentage">
     Progress: {{ percentage | number }}%
     <ion-progress-bar value="{{ percentage / 100 }}"></ion-progress-bar>
   </div>
-  <div *ngIf="trackSnapshot | async as snap">
+  <div class="progress" *ngIf="trackSnapshot | async as snap">
     File size: {{ snap.totalBytes | formatFileSize }} Data transfered: {{
     snap.bytesTransferred | formatFileSize }}
   </div>
