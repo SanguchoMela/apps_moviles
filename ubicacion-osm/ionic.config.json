@@ -1,0 +1,7 @@
+{
+  "name": "geolocation-storage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
